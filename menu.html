@@ -8,6 +8,7 @@
     <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
       }
       img {
         width: 250px;
@@ -24,12 +25,49 @@
         padding: 50px;
         margin: 20px;
       }
+      a {
+        color: white;
+        cursor: pointer;
+        font-family: arial;
+        text-align: center;
+        text-decoration: none;
+      }
+      /* mengatur efek perubahan tombol button diheader */
+      a:hover {
+        color: black;
+      }
+      /* mengatur jarak tinggi baris */
+      .jarak {
+        font-size: 16px;
+        line-height: 1.5em;
+      }
     </style>
   </head>
   <body>
     <center>
-      <h1>WartOn Fitri</h1>
+      <table border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr style="background-color: #c7991a">
+          <th width="650px" height="40px"></th>
+          <th width="100px">
+            <a href="index.html">Home</a>
+          </th>
+          <th width="100px">
+            <a href="menu.html">Menu</a>
+          </th>
+          <th width="100px">
+            <a href="about.html">About</a>
+          </th>
+          <th width="100px">
+            <a href="contact.html">Contact</a>
+          </th>
+          <th width="650px"></th>
+        </tr>
+      </table>
+
+      <h1>WartOn Sederhana</h1>
+
       <hr style="width: 30%" />
+
       <div class="content">
         <h2>Our Specials Menu</h2>
         <table style="text-align: center" cellspacing="10" cellpadding="10">
@@ -75,5 +113,14 @@
         <h4>Harga yang tertera diatas adalah harga satuan</h4>
       </div>
     </center>
+
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr style="background-color: #c7991a">
+        <th height="31px"></th>
+        <th width="2000px">
+          <font size="3" color="white"> by Kelompok 4 | Full Stack 01 </font>
+        </th>
+      </tr>
+    </table>
   </body>
 </html>
